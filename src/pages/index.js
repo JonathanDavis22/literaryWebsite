@@ -46,9 +46,12 @@ const IndexPage = () => (
               </p>
               <ul className='actions'>
                 <li>
-                  <Link className='button' to='/'>
+                  <a
+                    className='button'
+                    href='https://drive.google.com/file/d/17PJGqj9jJhjjjyICexqOUsqMT5VIg75-/view?usp=sharing'
+                  >
                     Read the Story
-                  </Link>
+                  </a>
                 </li>
               </ul>
             </div>
@@ -68,9 +71,12 @@ const IndexPage = () => (
               </p>
               <ul className='actions'>
                 <li>
-                  <Link className='button' to='/'>
+                  <a
+                    className='button'
+                    href='https://drive.google.com/file/d/1JHj7R31yKiCDbgKbHu3-rRJomXciNDBe/view?usp=sharing'
+                  >
                     Read the Story
-                  </Link>
+                  </a>
                 </li>
               </ul>
             </div>
@@ -90,9 +96,12 @@ const IndexPage = () => (
               </p>
               <ul className='actions'>
                 <li>
-                  <Link className='button' to='/'>
+                  <a
+                    className='button'
+                    href='https://drive.google.com/file/d/1BAKHndDWpVZXzgOLKaJT95hPXojWEOru/view?usp=sharing'
+                  >
                     Read the Story
-                  </Link>
+                  </a>
                 </li>
               </ul>
             </div>
@@ -111,10 +120,13 @@ const IndexPage = () => (
                 dapibus.
               </p>
               <ul className='actions'>
-                <li>
-                  <Link className='button' to='/'>
-                    Read the Story
-                  </Link>
+              <li>
+                  <a
+                    className='button'
+                    href='/'
+                  >
+                    Coming Soon...
+                  </a>
                 </li>
               </ul>
             </div>
@@ -133,10 +145,13 @@ const IndexPage = () => (
                 dapibus.
               </p>
               <ul className='actions'>
-                <li>
-                  <Link className='button' to='/'>
-                    Read the Story
-                  </Link>
+              <li>
+                  <a
+                    className='button'
+                    href='https://drive.google.com/file/d/1OorMkYMa8_g6eYzpn_Bqmq2p3g09AZXi/view?usp=sharing'
+                  >
+                    Read the Novel
+                  </a>
                 </li>
               </ul>
             </div>
@@ -242,7 +257,7 @@ const IndexPage = () => (
                 </div>
                 <ul className='actions'>
                   <li>
-                    <a href='/#' className='button submit'>
+                    <a href='mailto:jonathandaviswrites@gmail.com' className='button submit'>
                       Send Message
                     </a>
                   </li>
@@ -265,12 +280,8 @@ const IndexPage = () => (
                 </li>
                 <li>
                   <h3>Email</h3>
-                  <a href='/#'>jdaviswebdev@gmail.com</a>
+                  <a href='mailto:jonathandaviswrites@gmail.com'>jonathandaviswrites@gmail.com</a>
                 </li>
-                {/* <li>
-                  <h3>Phone</h3>
-                  <span>(206) 488-8321</span>
-                </li> */}
                 <li>
                   <h3>Social</h3>
                   <ul className='icons'>
