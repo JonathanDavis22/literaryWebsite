@@ -6,7 +6,8 @@ import Footer from '../components/Footer';
 import pic1 from '../images/pic01.jpg';
 import pic2 from '../images/pic02.jpg';
 import pic3 from '../images/pic03.jpg';
-import pic7 from '../images/pic07.jpg';
+import pic4 from '../images/pic04.jpg';
+import pic5 from '../images/pic05.jpg';
 import Sidebar from '../components/Sidebar';
 import Scroll from '../components/Scroll';
 
@@ -34,7 +35,7 @@ const IndexPage = () => (
       <section id='one' className='wrapper style2 spotlights'>
         <section>
           <a href='/#' className='image' alt='image'>
-            <img src={pic1} alt='' data-position='center center' />
+            <img src={pic4} alt='' data-position='center center' />
           </a>
           <div className='content'>
             <div className='inner'>
@@ -49,6 +50,31 @@ const IndexPage = () => (
                   <a
                     className='button'
                     href='https://drive.google.com/file/d/17PJGqj9jJhjjjyICexqOUsqMT5VIg75-/view?usp=sharing'
+                  >
+                    Read the Story
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </section>
+        <section>
+        <a href='/#' className='image' alt='image'>
+            <img src={pic1} alt='' data-position='center center' />
+          </a>
+          <div className='content'>
+            <div className='inner'>
+              <h2>Push Alert</h2>
+              <p>
+                Phasellus convallis elit id ullamcorper pulvinar. Duis aliquam
+                turpis mauris, eu ultricies erat malesuada quis. Aliquam
+                dapibus.
+              </p>
+              <ul className='actions'>
+                <li>
+                  <a
+                    className='button'
+                    href='https://drive.google.com/file/d/1BAKHndDWpVZXzgOLKaJT95hPXojWEOru/view?usp=sharing'
                   >
                     Read the Story
                   </a>
@@ -88,31 +114,6 @@ const IndexPage = () => (
           </a>
           <div className='content'>
             <div className='inner'>
-              <h2>Push Alert</h2>
-              <p>
-                Phasellus convallis elit id ullamcorper pulvinar. Duis aliquam
-                turpis mauris, eu ultricies erat malesuada quis. Aliquam
-                dapibus.
-              </p>
-              <ul className='actions'>
-                <li>
-                  <a
-                    className='button'
-                    href='https://drive.google.com/file/d/1BAKHndDWpVZXzgOLKaJT95hPXojWEOru/view?usp=sharing'
-                  >
-                    Read the Story
-                  </a>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </section>
-        <section>
-          <a href='/#' className='image'>
-            <img src={pic1} alt='' data-position='top center' />
-          </a>
-          <div className='content'>
-            <div className='inner'>
               <h2>Marimokkori</h2>
               <p>
                 Phasellus convallis elit id ullamcorper pulvinar. Duis aliquam
@@ -120,11 +121,8 @@ const IndexPage = () => (
                 dapibus.
               </p>
               <ul className='actions'>
-              <li>
-                  <a
-                    className='button'
-                    href='/'
-                  >
+                <li>
+                  <a className='button' href='/'>
                     Coming Soon...
                   </a>
                 </li>
@@ -134,7 +132,7 @@ const IndexPage = () => (
         </section>
         <section>
           <a href='/#' className='image'>
-            <img src={pic7} alt='' data-position='top center' />
+            <img src={pic5} alt='' data-position='top center' />
           </a>
           <div className='content'>
             <div className='inner'>
@@ -145,7 +143,7 @@ const IndexPage = () => (
                 dapibus.
               </p>
               <ul className='actions'>
-              <li>
+                <li>
                   <a
                     className='button'
                     href='https://drive.google.com/file/d/1OorMkYMa8_g6eYzpn_Bqmq2p3g09AZXi/view?usp=sharing'
@@ -257,7 +255,10 @@ const IndexPage = () => (
                 </div>
                 <ul className='actions'>
                   <li>
-                    <a href='mailto:jonathandaviswrites@gmail.com' className='button submit'>
+                    <a
+                      href='mailto:jonathandaviswrites@gmail.com'
+                      className='button submit'
+                    >
                       Send Message
                     </a>
                   </li>
@@ -280,7 +281,9 @@ const IndexPage = () => (
                 </li>
                 <li>
                   <h3>Email</h3>
-                  <a href='mailto:jonathandaviswrites@gmail.com'>jonathandaviswrites@gmail.com</a>
+                  <a href='mailto:jonathandaviswrites@gmail.com'>
+                    jonathandaviswrites@gmail.com
+                  </a>
                 </li>
                 <li>
                   <h3>Social</h3>
